@@ -10,4 +10,4 @@ tags:
   - WebAPP
 ---
 
-J'ai créer une petite <a href='https://github.com/bricemarcais/TodoList'> To-Do list </a> avec un CRUD. J'ai utilisé REACT, TYPESCRIPT, CHAKRA.UI et MONGODB. 
+J'ai créé une petite <a href='https://github.com/bricemarcais/TodoList'> To-Do list </a> avec un CRUD. J'ai utilisé REACT, TYPESCRIPT, CHAKRA.UI et MONGODB. 
