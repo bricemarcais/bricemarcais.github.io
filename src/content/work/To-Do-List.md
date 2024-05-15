@@ -1,7 +1,7 @@
 ---
 title: To-Do List
-publishDate:  2024-03-02 00:00:00
-img: /assets/todolist.png
+publishDate:  2024-04-15 00:00:00
+img: /assets/stock-2.jpg
 img_alt: Todolist
 description: |
  Just a To-Do list.
