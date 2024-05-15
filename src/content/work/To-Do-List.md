@@ -4,7 +4,7 @@ publishDate:  2024-04-15 00:00:00
 img: /assets/stock-2.jpg
 img_alt: Todolist
 description: |
- Just a To-Do list.
+ Une To-Do List.
 tags:
   - Dev
   - WebAPP
