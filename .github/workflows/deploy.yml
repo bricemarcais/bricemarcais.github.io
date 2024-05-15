@@ -13,14 +13,14 @@ permissions:
   contents: read
   pages: write
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v4
-      - name: Install, build, and upload your site output
-        uses: withastro/action@v2
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout your repository using git
+#         uses: actions/checkout@v4
+#       - name: Install, build, and upload your site output
+#         uses: withastro/action@v2
         
   deploy:
     needs: build
