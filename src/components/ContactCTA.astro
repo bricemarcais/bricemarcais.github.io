@@ -3,15 +3,41 @@ import CallToAction from './CallToAction.astro';
 import Icon from './Icon.astro';
 ---
 
-<aside>
-	<h2>Vous songez à travailler avec moi ?</h2>
+<section class="section with-background with-cta">
+	<header class="section-header stack gap-2 lg:gap-4">
+		<h3>Vous songez à travailler avec moi ?</h3>
+	</header>
+
+	<div class="cta">
 	<CallToAction href="https://www.linkedin.com/in/brice-marcais/">
 		Contactez moi
 		<Icon icon="paper-plane-tilt" size="1.2em" />
 	</CallToAction>
-</aside>
+	</div>
 
 <style>
+		.section {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		gap: 2rem;
+		width: 100%;
+	}
+	
+	.section-header {
+		justify-self: center;
+		text-align: center;
+		max-width: 50ch;
+		font-size: var(--text-md);
+		color: var(--gray-300);
+	}
+
+	.section-header h3 {
+		font-size: var(--text-2xl);
+	}
+	/* .section.with-cta {
+			grid-template-areas: 'header header header cta' 'gallery gallery gallery gallery';
+		} */
 	aside {
 		display: flex;
 		flex-direction: column;
@@ -22,6 +48,7 @@ import Icon from './Icon.astro';
 		padding: 5rem 1.5rem;
 		background-color: var(--gray-999_40);
 		box-shadow: var(--shadow-sm);
+		width: 80%,
 	}
 
 	h2 {
