@@ -1,137 +1,142 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
 <BaseLayout title="About | Brice Marçais" description="About Brice Marçais ">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="À propos"
-				tagline="Consultez la description ci-dessous pour en apprendre davantage sur mon expérience et mon cheminement personnel."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Brice Marçais at work with a colleague"
-				/>
-			</Hero>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="À propos"
+        tagline="En raison de ma passion pour le développement informatique, j'ai entrepris une reconversion professionnelle pour devenir développeur web, dans l'objectif de pratiquer un métier qui me satisfait pleinement."
+      />
 
-			<section>
-				<h2 class="section-title">Expériences</h2>
-				<div class="content">
-					<p>
-						Ma première expérience professionnelle débute en 2018 chez Motoblouz en tant qu'Agent Logistique Polyvalent.
-						Cette expérience m'a principalement appris le travail en équipe avec une bonne cohésion de groupe afin 
-						d'atteindre les objectifs journaliers.
-						Malgré cela, je n'y trouve plus de satisfaction dans ce domaine, je décide donc de quitter ce milieu afin d'intégrer un centre 
-						de formation pour devenir développeur web.
-					</p>
-					<br/>
-					<p>
-						Fin 2020, j'intègre la <a href="https://3wacademy.fr">3W ACADEMY</a> avec qui j'apprends les bases du code 
-						en quelques mois.
-					</p>
-					<br/>
-					<p>
-						Suite à cet enseignement, je poursuis une alternance en compagnie de <a href="https://enia.green/">ENIA</a>.
-						Ma première expérience dans le domaine du digital, j'y ai appris beaucoup sur le métier de développeur, mais aussi, acquis 
-						et développé des compétences dans plusieurs langages en parallèle avec le centre de formation.
-						J'ai pris connaissance des bonnes pratiques dans le code afin d'avoir un travail propre, agréable et lisible.
-					</p>
-					<br/>
-					<p>
-						Aujourd'hui, j'accepte volontiers toutes les propositions de programmes de formation en alternance ou de formations continues, 
-						dans le but de développer de nouvelles compétences. 
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Baccalauréat STI2D option S.I.N (Système d’Information et Numérique).</p>
-					<p>Formation Développeur FULLSTACK.</p>
-					<p>Formation Concepteur Développeur d’Application (non obtenu pour cause de cloture d'entreprise).</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Compétences</h2>
-				<div class="content">
-					<ul>
-						<li>Javascript, HTML, CSS</li>
-						<li>React</li>
-						<li>Typescript</li>
-						<li>Node.js</li>
-						<li>Git</li>
-						<li>Stack overflow</li>
-						<li>SQL</li>
-						<li>PHP</li>
-					</ul>
-				</div>
-			</section>
-		</main>
+      <section>
+        <h2 class="section-title">Expériences</h2>
+        <div class="content">
+          <p>
+            Ma première expérience professionnelle débute en 2018 chez Motoblouz
+            en tant qu'Agent Logistique Polyvalent. Cette expérience m'a
+            principalement appris le travail en équipe avec une bonne cohésion
+            de groupe afin d'atteindre les objectifs journaliers. Malgré cela,
+            je n'y trouve plus de satisfaction dans ce domaine, je décide donc
+            de quitter ce milieu afin d'intégrer un centre de formation pour
+            devenir développeur web.
+          </p>
+          <br />
+          <p>
+            Fin 2020, j'intègre la <a href="https://3wacademy.fr">3W ACADEMY</a>
+            avec qui j'apprends les bases du code en quelques mois.
+          </p>
+          <br />
+          <p>
+            Suite à cet enseignement, je poursuis une alternance en compagnie de <a
+              href="https://enia.green/">ENIA</a
+            >. Ma première expérience dans le domaine du digital, j'y ai appris
+            beaucoup sur le métier de développeur, mais aussi, acquis et
+            développé des compétences dans plusieurs langages en parallèle avec
+            le centre de formation. J'ai pris connaissance des bonnes pratiques
+            dans le code afin d'avoir un travail propre, agréable et lisible.
+          </p>
+          <br />
+          <p>
+            Aujourd'hui, j'accepte volontiers toutes les propositions de
+            programmes de formation en alternance ou de formations continues,
+            dans le but de développer de nouvelles compétences.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <p>
+            Baccalauréat STI2D option S.I.N (Système d’Information et
+            Numérique).
+          </p>
+          <p>Formation Développeur FULLSTACK.</p>
+          <p>
+            Formation Concepteur Développeur d’Application (non obtenu pour
+            cause de cloture d'entreprise).
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Compétences</h2>
+        <div class="content">
+          <ul>
+            <li>Javascript, HTML, CSS</li>
+            <li>React</li>
+            <li>Typescript</li>
+            <li>Node.js</li>
+            <li>Git</li>
+            <li>Stack overflow</li>
+            <li>SQL</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
-		<ContactCTA />
-	</div>
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
